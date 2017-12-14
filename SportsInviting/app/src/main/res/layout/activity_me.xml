@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.xiaogengen.sportsinviting.Activity.Activity.MeActivity">
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+
+    <ImageButton
+        android:id="@+id/set"
+        android:src="@drawable/a5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_alignBottom="@+id/line1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/text1"
+        android:text="李直根XGG"
+        android:textSize="25dp"
+        android:textColor="#333333"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/line1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/addfriends"
+        android:src="@drawable/a6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_alignBottom="@+id/line1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ImageButton
+        android:id="@+id/headshot"
+        android:src="@drawable/a1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_below="@+id/line1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/modify"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/line1"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="14dp"
+        android:background="#F0F0F0"
+        android:text="个人资料"
+        android:textColor="#030303" />
+
+    <Button
+        android:id="@+id/sentInvatation"
+        android:text="已发出的邀请"
+        android:textColor="#030303"
+        android:background="#F0F0F0"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/modify"
+        android:layout_alignLeft="@+id/modify"
+        android:layout_alignStart="@+id/modify"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/recivedInvatation"
+        android:text="已接受的邀请"
+        android:textColor="#030303"
+        android:background="#F0F0F0"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/sentInvatation"
+        android:layout_alignRight="@+id/modify"
+        android:layout_alignEnd="@+id/modify" />
+
+    <Button
+        android:id="@+id/friendslist"
+        android:text="好友列表"
+        android:textColor="#030303"
+        android:background="#F0F0F0"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/sentInvatation"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/sentInvatation"
+        android:layout_alignStart="@+id/sentInvatation" />
+    <View
+        android:id="@+id/line2"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="180dp"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="220dp"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+
+    <View
+        android:id="@+id/line4"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="260dp"
+        android:layout_height="1dp"
+        android:background="#D3D3D3" />
+
+    <Button
+        android:id="@+id/relatedtome"
+        android:text="与我相关"
+        android:textSize="18dp"
+        android:textColor="#030303"
+        android:background="#ffffff"
+        android:layout_marginBottom="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/line3"
+        android:layout_alignLeft="@+id/friendslist"
+        android:layout_alignStart="@+id/friendslist" />
+
+    <Button
+        android:id="@+id/message"
+        android:text="消息"
+        android:textSize="18dp"
+        android:textColor="#030303"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/relatedtome"
+        android:layout_alignStart="@+id/relatedtome" />
+    <ImageButton
+        android:id="@+id/headshot2"
+        android:src="@drawable/a1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_below="@+id/line4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/name"
+        android:text="李直根XGG"
+        android:textSize="15dp"
+        android:textColor="#030303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/headshot2"
+        android:layout_toLeftOf="@+id/message"
+        android:layout_toStartOf="@+id/message"
+        android:layout_marginBottom="17dp" />
+    <ImageButton
+        android:id="@+id/photo"
+        android:src="@drawable/a7"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:layout_below="@+id/headshot2" />
+
+</RelativeLayout>
